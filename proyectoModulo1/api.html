@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestras Cervezas</title>
+    <link rel="stylesheet"  href="style.css"/>  
+    <link rel="shortcut icon" href="/beer_icon.ico" />
+</head>
+<body>
+
+    <a id="ancla"></a>
+    <div class="contenedor">
+
+        <header>
+
+            <div id="logo">
+
+                <h1>CRAFTBEER</h1>
+                <img src="/beer_icon.ico" width="8%" height="8%" alt="">
+            
+            </div>
+
+                <nav id="navegador">
+
+                    <a id="principal" href="./principal.html">Página Principal</a>
+                    <a id="favoritos" href="./localstore.html">Tus favoritas</a>
+                    <a id="nosotros" href="nosotros.html">Sobre Nosotros</a>
+            
+                </nav>
+        
+        </header>
+        
+        <div id="contenedorapi">
+            <div id="barraMenu"> 
+                <select id="nuestrasCervezas" content="listadoCervezas()" onchange="mostrarInfoCerveza()">
+                    <option>Elige cualquiera de nuestras cervezas</option>
+                </select>
+            </div>  
+            <div id="cerveza"></div>    
+        </div>
+
+        
+
+        <footer>
+
+            <a id="inicio" href="#ancla">Inicio</a>
+
+            <section id="links">
+                <a id="enlaceGoogle" href="https://www.google.com">Google</a>
+                <a id="enlaceFaceBook" href="https://www.facebook.com">FaceBook</a>
+                <a id="enlaceTweeter" href="https://www.tweeter.com">Tweeter</a>
+                <a id="enlaceInstagram" href="https://www.instagram.com">Instagram</a>
+            </section>
+
+        </footer>
+    
+    </div>
+
+ 
+ 
+ 
+    <script src="./index.js"></script>   
+
+
+
+
+</body>
+</html>
